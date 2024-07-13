@@ -5,11 +5,11 @@
 }
 
 .product section {
-  width: clamp(80rem, 80%, 90rem);
+  width: 70%;
   margin: 7rem auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 7rem;
+  gap: 10rem;
   align-items: center;
 }
 
@@ -19,7 +19,7 @@
 }
 
 .product h2 {
-  font-size: 4rem;
+  font-size: 4.5rem;
   line-height: 1.2;
   margin-bottom: 3rem;
 }

@@ -70,3 +70,17 @@ input:focus {
 .cta:hover {
   background-color: var(--color-brand--3);
 }
+
+:focus-visible {
+  outline-color: var(--color-dark--0);
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-brand--2);
+  border-radius: 8px;
+}

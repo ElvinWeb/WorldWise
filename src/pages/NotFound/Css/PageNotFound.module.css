@@ -1,0 +1,63 @@
+.notfoundBlock {
+  position: relative;
+  height: 100vh;
+  background-color: var(--color-dark--1);
+}
+
+.notfoundBlock .notfound {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.notfound {
+  max-width: 767px;
+  width: 100%;
+  line-height: 1.4;
+  text-align: center;
+  padding: 15px;
+}
+
+.notfoundTitle {
+  position: relative;
+  height: 220px;
+}
+
+.notfoundTitle h1 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 190px;
+  font-weight: 200;
+  margin: 0px;
+  background: linear-gradient(130deg, var(--color-brand--1), var(--color-brand--2));
+  color: transparent;
+  background-clip: text;
+  text-transform: uppercase;
+}
+
+.notfound h2 {
+  font-size: 33px;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: 25px;
+  letter-spacing: 3px;
+}
+
+.notfound p {
+  font-size: 16px;
+  font-weight: 200;
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
+.notfound a {
+  color: var(--color-brand--2);
+  font-weight: 200;
+  text-decoration: none;
+  border-bottom: 1px dashed var(--color-brand--2);
+  border-radius: 2px;
+}

@@ -14,12 +14,20 @@ export default function Product() {
             Just $9/month.
           </h2>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae vel
-            labore mollitia iusto. Recusandae quos provident, laboriosam fugit
-            voluptatem iste.
+            Explore the world with ease and affordability. For just $9 a month,
+            gain access to all the features and benefits WorldWise has to offer.
+            Enjoy personalized travel recommendations, comprehensive guides, and
+            a vibrant community of fellow explorers, all at a price that fits
+            your budget.Join WorldWise today and start your adventure with
+            confidence. No hidden fees, no complicated plans—just one simple
+            price for endless possibilities.
           </p>
+          <p></p>
         </div>
-        <img src={pricingSideImg} alt="overview of a large city with skyscrapers" />
+        <img
+          src={pricingSideImg}
+          alt="overview of a large city with skyscrapers"
+        />
       </section>
     </main>
   );
