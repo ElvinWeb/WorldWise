@@ -32,6 +32,8 @@
 }
 
 .city h3 span {
+  display: inline-flex;
+  align-self: baseline;
   font-size: 3.2rem;
   line-height: 1;
 }

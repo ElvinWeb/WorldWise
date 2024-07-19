@@ -7,10 +7,11 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  transition: var(--transition--1);
 }
 
 .primary {
-  font-weight: 700;
+  font-weight: 600;
   background-color: var(--color-brand--2);
   color: var(--color-dark--1);
 }
@@ -32,4 +33,8 @@
   background-color: var(--color-brand--2);
   color: var(--color-dark--1);
   box-shadow: 0 0.4rem 1.2rem rgba(36, 42, 46, 0.16);
+}
+
+:is(.primary, .position):hover {
+  background-color: var(--color-brand--3);
 }

@@ -22,7 +22,6 @@
 
 .nav a:global(.active) {
   color: var(--color-brand--2);
-  text-decoration: underline;
 }
 
 a.link:hover {
