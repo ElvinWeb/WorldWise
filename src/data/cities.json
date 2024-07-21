@@ -1,16 +1,3 @@
 {
-  "cities": [
-    {
-      "cityName": "Ulmi",
-      "country": "Romania",
-      "emoji": "🇷🇴",
-      "date": "2024-07-19T19:47:45.047Z",
-      "notes": "So interesting✌️",
-      "position": {
-        "lat": "44.47991929195038",
-        "lng": "25.773925781250004"
-      },
-      "id": 1
-    }
-  ]
+  "cities": []
 }

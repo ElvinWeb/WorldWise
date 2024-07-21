@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { useUrlPosition } from "../../hooks/useUrlPosition";
 import { useCities } from "../../contexts/CitiesContext";
+import { useUrlPosition } from "../../hooks/useUrlPosition";
 import { useNavigate } from "react-router-dom";
 import BackButton from "../Button/BackButton";
 import DatePicker from "react-datepicker";
