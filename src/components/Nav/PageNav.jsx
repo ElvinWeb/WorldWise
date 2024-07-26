@@ -15,7 +15,7 @@ function PageNav() {
           <NavLink to="/about" className={styles.link}>About</NavLink>
         </li>
         <li>
-          <NavLink to="/sign" className={styles.link}>Sign up</NavLink>
+          <NavLink to="/signup" className={styles.link}>Sign up</NavLink>
         </li>
         <li>
           <NavLink to="/login" className={styles.ctaLink}>
